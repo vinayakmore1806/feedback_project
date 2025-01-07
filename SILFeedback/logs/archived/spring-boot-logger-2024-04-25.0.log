@@ -1,0 +1,362 @@
+2024-04-25 17:05:22,011 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PustTxnFeedApplication using Java 17.0.2 with PID 28980 (E:\Projects\VAKRANGI\PustTxnFeed\target\classes started by vinayak more in E:\Projects\VAKRANGI\PustTxnFeed)
+2024-04-25 17:05:22,013 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:05:22,666 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25 17:05:22,724 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2024-04-25 17:05:23,347 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7175 (http)
+2024-04-25 17:05:23,356 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7175"]
+2024-04-25 17:05:23,358 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-04-25 17:05:23,358 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-04-25 17:05:23,432 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-04-25 17:05:23,434 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1367 ms
+2024-04-25 17:05:23,673 INFO [main] com.zaxxer.hikari.HikariDataSource [110] HikariPool-1 - Starting...
+2024-04-25 17:05:24,051 INFO [main] com.zaxxer.hikari.pool.HikariPool [565] HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 86b070c0-0203-488f-b1c4-a228605ec140
+2024-04-25 17:05:24,053 INFO [main] com.zaxxer.hikari.HikariDataSource [123] HikariPool-1 - Start completed.
+2024-04-25 17:05:24,107 INFO [main] org.hibernate.jpa.internal.util.LogHelper [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25 17:05:24,168 INFO [main] org.hibernate.Version [44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-04-25 17:05:24,214 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator [50] HHH000026: Second-level cache disabled
+2024-04-25 17:05:24,441 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25 17:05:24,489 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [153] HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-25 17:05:24,491 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [101] HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-04-25 17:05:25,195 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25 17:05:25,198 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25 17:05:25,476 INFO [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [49] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-25 17:05:25,872 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25 17:05:26,241 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7175"]
+2024-04-25 17:05:26,265 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7175 (http) with context path ''
+2024-04-25 17:05:26,279 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PustTxnFeedApplication in 4.617 seconds (process running for 5.19)
+2024-04-25 17:05:28,288 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 17:05:28,558 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] TXN LIST : 1
+2024-04-25 17:05:28,558 INFO [scheduling-1] com.sil.scheduler.pushTxnService [50] TXN LIST  2 : 1
+2024-04-25 17:05:28,629 INFO [scheduling-1] com.sil.scheduler.pushTxnService [52] TXN LIST  3 : 1
+2024-04-25 17:05:28,629 INFO [scheduling-1] com.sil.scheduler.pushTxnService [66] Data 2 : VMH00223|2024-04-25|16:24:51|01|cashwithdrawal|541919XXXXXX6554|420113009212|9212|100|E3|TRANSACTION DECLINED BY CARD BANK|12345
+2024-04-25 17:05:28,633 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"TransactionID":"007420113009212","FeedText":"VMH00223|2024-04-25|16:24:51|01|cashwithdrawal|541919XXXXXX6554|420113009212|9212|100|E3|TRANSACTION DECLINED BY CARD BANK|12345"}
+2024-04-25 17:05:28,669 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-04-25 17:05:28,670 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushtransactionfeed
+2024-04-25 17:05:28,670 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-04-25 17:05:28,671 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"177"]
+2024-04-25 17:05:28,671 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"TransactionID":"007420113009212","FeedText":"VMH00223|2024-04-25|16:24:51|01|cashwithdrawal|541919XXXXXX6554|420113009212|9212|100|E3|TRANSACTION DECLINED BY CARD BANK|12345"}
+2024-04-25 17:05:28,671 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-04-25 17:05:28,757 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-04-25 17:05:28,760 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-04-25 17:05:28,760 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-04-25 17:05:28,760 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Thu, 25 Apr 2024 11:35:30 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"76", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-04-25 17:05:28,761 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"TransactionID": "007420113009212", "code": "200", "Status": "Sucessfully"}
+2024-04-25 17:05:28,761 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-04-25 17:05:28,779 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"TransactionID": "007420113009212", "code": "200", "Status": "Sucessfully"}
+2024-04-25 17:05:28,779 INFO [scheduling-1] com.sil.scheduler.pushTxnService [75]  CONNECTION SUCCESS : 
+2024-04-25 20:49:36,787 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PustTxnFeedApplication using Java 17.0.2 with PID 35844 (E:\Projects\VAKRANGI\PustTxnFeed\target\classes started by vinayak more in E:\Projects\VAKRANGI\PustTxnFeed)
+2024-04-25 20:49:36,789 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 20:49:37,450 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25 20:49:37,511 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2024-04-25 20:49:38,214 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7175 (http)
+2024-04-25 20:49:38,226 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7175"]
+2024-04-25 20:49:38,229 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-04-25 20:49:38,230 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-04-25 20:49:38,328 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-04-25 20:49:38,331 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1491 ms
+2024-04-25 20:49:38,580 INFO [main] com.zaxxer.hikari.HikariDataSource [110] HikariPool-1 - Starting...
+2024-04-25 20:49:39,049 INFO [main] com.zaxxer.hikari.pool.HikariPool [565] HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 76672118-98c5-4366-acd1-6603251392c8
+2024-04-25 20:49:39,054 INFO [main] com.zaxxer.hikari.HikariDataSource [123] HikariPool-1 - Start completed.
+2024-04-25 20:49:39,142 INFO [main] org.hibernate.jpa.internal.util.LogHelper [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25 20:49:39,234 INFO [main] org.hibernate.Version [44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-04-25 20:49:39,281 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator [50] HHH000026: Second-level cache disabled
+2024-04-25 20:49:39,535 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25 20:49:39,598 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [153] HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-25 20:49:39,600 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [101] HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-04-25 20:49:40,409 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25 20:49:40,411 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25 20:49:40,722 INFO [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [49] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-25 20:49:41,161 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25 20:49:41,598 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7175"]
+2024-04-25 20:49:41,633 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7175 (http) with context path ''
+2024-04-25 20:49:41,663 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PustTxnFeedApplication in 5.21 seconds (process running for 5.732)
+2024-04-25 20:49:43,681 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:49:44,058 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] TXN LIST : 3
+2024-04-25 20:49:44,058 INFO [scheduling-1] com.sil.scheduler.pushTxnService [50] TXN LIST  2 : 3
+2024-04-25 20:49:44,304 INFO [scheduling-1] com.sil.scheduler.pushTxnService [52] TXN LIST  3 : 3
+2024-04-25 20:49:44,304 INFO [scheduling-1] com.sil.scheduler.pushTxnService [66] Data 2 : VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|1900|51|INSUFFICIENT BALANCE|0
+2024-04-25 20:49:44,310 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"TransactionID":"007411620009226","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|1900|51|INSUFFICIENT BALANCE|0"}
+2024-04-25 20:49:44,382 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-04-25 20:49:44,382 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushtransactionfeed
+2024-04-25 20:49:44,382 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-04-25 20:49:44,383 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"161"]
+2024-04-25 20:49:44,384 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"TransactionID":"007411620009226","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|1900|51|INSUFFICIENT BALANCE|0"}
+2024-04-25 20:49:44,384 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-04-25 20:49:44,872 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-04-25 20:49:44,878 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-04-25 20:49:44,878 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-04-25 20:49:44,879 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Thu, 25 Apr 2024 15:19:47 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"76", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-04-25 20:49:44,879 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"TransactionID": "007411620009226", "code": "200", "Status": "Sucessfully"}
+2024-04-25 20:49:44,879 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-04-25 20:49:44,925 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"TransactionID": "007411620009226", "code": "200", "Status": "Sucessfully"}
+2024-04-25 20:49:44,926 INFO [scheduling-1] com.sil.scheduler.pushTxnService [75]  CONNECTION SUCCESS : 
+2024-04-25 20:49:44,987 INFO [scheduling-1] com.sil.scheduler.pushTxnService [50] TXN LIST  2 : 3
+2024-04-25 20:49:45,035 INFO [scheduling-1] com.sil.scheduler.pushTxnService [52] TXN LIST  3 : 3
+2024-04-25 20:49:45,035 INFO [scheduling-1] com.sil.scheduler.pushTxnService [66] Data 2 : VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|1900|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|0|00|SUCCESSFUL|031928
+2024-04-25 20:49:45,037 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"TransactionID":"007411620009227","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|1900|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|0|00|SUCCESSFUL|031928"}
+2024-04-25 20:49:45,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-04-25 20:49:45,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushtransactionfeed
+2024-04-25 20:49:45,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-04-25 20:49:45,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"265"]
+2024-04-25 20:49:45,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"TransactionID":"007411620009227","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|1900|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|0|00|SUCCESSFUL|031928"}
+2024-04-25 20:49:45,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-04-25 20:49:45,112 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-04-25 20:49:45,113 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-04-25 20:49:45,113 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-04-25 20:49:45,113 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Thu, 25 Apr 2024 15:19:47 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"76", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-04-25 20:49:45,113 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"TransactionID": "007411620009227", "code": "200", "Status": "Sucessfully"}
+2024-04-25 20:49:45,113 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-04-25 20:49:45,114 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"TransactionID": "007411620009227", "code": "200", "Status": "Sucessfully"}
+2024-04-25 20:49:45,114 INFO [scheduling-1] com.sil.scheduler.pushTxnService [75]  CONNECTION SUCCESS : 
+2024-04-25 20:49:45,165 INFO [scheduling-1] com.sil.scheduler.pushTxnService [50] TXN LIST  2 : 3
+2024-04-25 20:49:45,201 INFO [scheduling-1] com.sil.scheduler.pushTxnService [52] TXN LIST  3 : 3
+2024-04-25 20:49:45,202 INFO [scheduling-1] com.sil.scheduler.pushTxnService [66] Data 2 : VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|1900|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|0|00|SUCCESSFUL|031928VMH00223|2024-04-25|20:49:32|01|cashwithdrawal|401704XXXXXX8688|411620009228|9228|900|906|AMOUNT CAN BE DISPENSED|031948
+2024-04-25 20:49:45,202 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"TransactionID":"007411620009228","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|1900|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|0|00|SUCCESSFUL|031928VMH00223|2024-04-25|20:49:32|01|cashwithdrawal|401704XXXXXX8688|411620009228|9228|900|906|AMOUNT CAN BE DISPENSED|031948"}
+2024-04-25 20:49:45,205 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-04-25 20:49:45,205 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushtransactionfeed
+2024-04-25 20:49:45,205 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-04-25 20:49:45,205 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"385"]
+2024-04-25 20:49:45,205 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"TransactionID":"007411620009228","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|1900|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|0|00|SUCCESSFUL|031928VMH00223|2024-04-25|20:49:32|01|cashwithdrawal|401704XXXXXX8688|411620009228|9228|900|906|AMOUNT CAN BE DISPENSED|031948"}
+2024-04-25 20:49:45,205 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-04-25 20:49:45,268 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-04-25 20:49:45,269 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-04-25 20:49:45,269 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-04-25 20:49:45,269 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Thu, 25 Apr 2024 15:19:48 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"76", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-04-25 20:49:45,269 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"TransactionID": "007411620009228", "code": "200", "Status": "Sucessfully"}
+2024-04-25 20:49:45,269 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-04-25 20:49:45,270 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"TransactionID": "007411620009228", "code": "200", "Status": "Sucessfully"}
+2024-04-25 20:49:45,270 INFO [scheduling-1] com.sil.scheduler.pushTxnService [75]  CONNECTION SUCCESS : 
+2024-04-25 20:50:03,665 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:50:03,731 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:50:23,668 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:50:23,717 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:50:43,665 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:50:43,734 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:51:03,664 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:51:03,920 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:51:23,661 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:51:23,723 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:51:43,663 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:51:43,715 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:52:03,670 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:52:03,753 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] TXN LIST : 1
+2024-04-25 20:52:03,753 INFO [scheduling-1] com.sil.scheduler.pushTxnService [50] TXN LIST  2 : 1
+2024-04-25 20:52:03,815 INFO [scheduling-1] com.sil.scheduler.pushTxnService [52] TXN LIST  3 : 1
+2024-04-25 20:52:03,815 INFO [scheduling-1] com.sil.scheduler.pushTxnService [66] Data 2 : VMH00223|2024-04-25|20:51:44|01|cashwithdrawal|401704XXXXXX8688|411620009229|9229|400|906|AMOUNT CAN BE DISPENSED|031999
+2024-04-25 20:52:03,817 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"TransactionID":"007411620009229","FeedText":"VMH00223|2024-04-25|20:51:44|01|cashwithdrawal|401704XXXXXX8688|411620009229|9229|400|906|AMOUNT CAN BE DISPENSED|031999"}
+2024-04-25 20:52:03,819 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-04-25 20:52:03,820 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushtransactionfeed
+2024-04-25 20:52:03,820 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-04-25 20:52:03,820 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"169"]
+2024-04-25 20:52:03,820 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"TransactionID":"007411620009229","FeedText":"VMH00223|2024-04-25|20:51:44|01|cashwithdrawal|401704XXXXXX8688|411620009229|9229|400|906|AMOUNT CAN BE DISPENSED|031999"}
+2024-04-25 20:52:03,820 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-04-25 20:52:03,893 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-04-25 20:52:03,894 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-04-25 20:52:03,894 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-04-25 20:52:03,894 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Thu, 25 Apr 2024 15:22:06 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"76", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-04-25 20:52:03,895 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"TransactionID": "007411620009229", "code": "200", "Status": "Sucessfully"}
+2024-04-25 20:52:03,895 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-04-25 20:52:03,896 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"TransactionID": "007411620009229", "code": "200", "Status": "Sucessfully"}
+2024-04-25 20:52:03,896 INFO [scheduling-1] com.sil.scheduler.pushTxnService [75]  CONNECTION SUCCESS : 
+2024-04-25 20:52:23,673 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:52:23,723 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:52:43,660 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:52:43,715 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:53:03,660 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:53:03,726 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:53:23,667 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:53:23,738 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:53:43,671 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:53:43,740 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:54:03,672 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:54:03,728 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:54:23,668 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:54:23,709 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:54:43,672 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:54:43,737 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 20:55:03,660 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 20:55:03,716 INFO [scheduling-1] com.sil.scheduler.pushTxnService [45] RECORD NOT FOUND
+2024-04-25 21:04:03,643 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PustTxnFeedApplication using Java 17.0.2 with PID 24456 (E:\Projects\VAKRANGI\PustTxnFeed\target\classes started by vinayak more in E:\Projects\VAKRANGI\PustTxnFeed)
+2024-04-25 21:04:03,647 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 21:04:04,382 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25 21:04:04,459 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2024-04-25 21:04:05,098 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7175 (http)
+2024-04-25 21:04:05,106 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7175"]
+2024-04-25 21:04:05,108 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-04-25 21:04:05,109 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-04-25 21:04:05,197 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-04-25 21:04:05,199 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1493 ms
+2024-04-25 21:04:05,532 INFO [main] com.zaxxer.hikari.HikariDataSource [110] HikariPool-1 - Starting...
+2024-04-25 21:04:05,938 INFO [main] com.zaxxer.hikari.pool.HikariPool [565] HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: f39c9089-1385-4ca0-9191-04c0482e86e7
+2024-04-25 21:04:05,940 INFO [main] com.zaxxer.hikari.HikariDataSource [123] HikariPool-1 - Start completed.
+2024-04-25 21:04:05,997 INFO [main] org.hibernate.jpa.internal.util.LogHelper [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25 21:04:06,049 INFO [main] org.hibernate.Version [44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-04-25 21:04:06,090 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator [50] HHH000026: Second-level cache disabled
+2024-04-25 21:04:06,316 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25 21:04:06,365 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [153] HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-25 21:04:06,367 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [101] HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-04-25 21:04:07,122 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25 21:04:07,126 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25 21:04:07,417 INFO [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [49] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-25 21:04:07,842 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25 21:04:08,233 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7175"]
+2024-04-25 21:04:08,255 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7175 (http) with context path ''
+2024-04-25 21:04:08,271 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PustTxnFeedApplication in 4.961 seconds (process running for 5.467)
+2024-04-25 21:04:10,282 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 21:04:10,549 INFO [scheduling-1] com.sil.scheduler.pushTxnService [49] TXN LIST : 4
+2024-04-25 21:04:10,549 INFO [scheduling-1] com.sil.scheduler.pushTxnService [51] TXN LIST  2 : 4
+2024-04-25 21:04:10,662 INFO [scheduling-1] com.sil.scheduler.pushTxnService [53] TXN LIST  3 : 4
+2024-04-25 21:04:10,663 INFO [scheduling-1] com.sil.scheduler.pushTxnService [74] Data 2 : VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0
+2024-04-25 21:04:10,671 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"TransactionID":"007411620009226","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0"}
+2024-04-25 21:04:10,738 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-04-25 21:04:10,738 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushtransactionfeed
+2024-04-25 21:04:10,738 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-04-25 21:04:10,739 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"163"]
+2024-04-25 21:04:10,740 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"TransactionID":"007411620009226","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0"}
+2024-04-25 21:04:10,740 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-04-25 21:04:10,822 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-04-25 21:04:10,824 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-04-25 21:04:10,824 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-04-25 21:04:10,824 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Thu, 25 Apr 2024 15:34:13 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"76", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-04-25 21:04:10,824 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"TransactionID": "007411620009226", "code": "200", "Status": "Sucessfully"}
+2024-04-25 21:04:10,824 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-04-25 21:04:10,840 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"TransactionID": "007411620009226", "code": "200", "Status": "Sucessfully"}
+2024-04-25 21:04:10,841 INFO [scheduling-1] com.sil.scheduler.pushTxnService [83]  CONNECTION SUCCESS : 
+2024-04-25 21:04:10,917 INFO [scheduling-1] com.sil.scheduler.pushTxnService [51] TXN LIST  2 : 4
+2024-04-25 21:04:11,019 INFO [scheduling-1] com.sil.scheduler.pushTxnService [53] TXN LIST  3 : 4
+2024-04-25 21:04:11,020 INFO [scheduling-1] com.sil.scheduler.pushTxnService [74] Data 2 : VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|190000|00|SUCCESSFUL|031928
+2024-04-25 21:04:11,020 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"TransactionID":"007411620009227","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|190000|00|SUCCESSFUL|031928"}
+2024-04-25 21:04:11,023 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-04-25 21:04:11,023 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushtransactionfeed
+2024-04-25 21:04:11,024 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-04-25 21:04:11,024 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"272"]
+2024-04-25 21:04:11,024 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"TransactionID":"007411620009227","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|190000|00|SUCCESSFUL|031928"}
+2024-04-25 21:04:11,024 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-04-25 21:04:11,114 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-04-25 21:04:11,114 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-04-25 21:04:11,114 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-04-25 21:04:11,114 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Thu, 25 Apr 2024 15:34:13 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"76", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-04-25 21:04:11,115 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"TransactionID": "007411620009227", "code": "200", "Status": "Sucessfully"}
+2024-04-25 21:04:11,115 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-04-25 21:04:11,115 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"TransactionID": "007411620009227", "code": "200", "Status": "Sucessfully"}
+2024-04-25 21:04:11,115 INFO [scheduling-1] com.sil.scheduler.pushTxnService [83]  CONNECTION SUCCESS : 
+2024-04-25 21:04:11,212 INFO [scheduling-1] com.sil.scheduler.pushTxnService [51] TXN LIST  2 : 4
+2024-04-25 21:04:11,260 INFO [scheduling-1] com.sil.scheduler.pushTxnService [53] TXN LIST  3 : 4
+2024-04-25 21:04:11,261 INFO [scheduling-1] com.sil.scheduler.pushTxnService [74] Data 2 : VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|190000|00|SUCCESSFUL|031928VMH00223|2024-04-25|20:49:32|01|cashwithdrawal|401704XXXXXX8688|411620009228|9228|90000|906|AMOUNT CAN BE DISPENSED|031948
+2024-04-25 21:04:11,261 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"TransactionID":"007411620009228","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|190000|00|SUCCESSFUL|031928VMH00223|2024-04-25|20:49:32|01|cashwithdrawal|401704XXXXXX8688|411620009228|9228|90000|906|AMOUNT CAN BE DISPENSED|031948"}
+2024-04-25 21:04:11,265 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-04-25 21:04:11,265 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushtransactionfeed
+2024-04-25 21:04:11,265 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-04-25 21:04:11,266 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"394"]
+2024-04-25 21:04:11,266 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"TransactionID":"007411620009228","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|190000|00|SUCCESSFUL|031928VMH00223|2024-04-25|20:49:32|01|cashwithdrawal|401704XXXXXX8688|411620009228|9228|90000|906|AMOUNT CAN BE DISPENSED|031948"}
+2024-04-25 21:04:11,266 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-04-25 21:04:11,334 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-04-25 21:04:11,334 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-04-25 21:04:11,334 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-04-25 21:04:11,334 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Thu, 25 Apr 2024 15:34:14 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"76", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-04-25 21:04:11,334 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"TransactionID": "007411620009228", "code": "200", "Status": "Sucessfully"}
+2024-04-25 21:04:11,334 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-04-25 21:04:11,335 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"TransactionID": "007411620009228", "code": "200", "Status": "Sucessfully"}
+2024-04-25 21:04:11,335 INFO [scheduling-1] com.sil.scheduler.pushTxnService [83]  CONNECTION SUCCESS : 
+2024-04-25 21:04:11,417 INFO [scheduling-1] com.sil.scheduler.pushTxnService [51] TXN LIST  2 : 4
+2024-04-25 21:04:11,454 INFO [scheduling-1] com.sil.scheduler.pushTxnService [53] TXN LIST  3 : 4
+2024-04-25 21:04:11,455 INFO [scheduling-1] com.sil.scheduler.pushTxnService [74] Data 2 : VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|190000|00|SUCCESSFUL|031928VMH00223|2024-04-25|20:49:32|01|cashwithdrawal|401704XXXXXX8688|411620009228|9228|90000|906|AMOUNT CAN BE DISPENSED|031948VMH00223|2024-04-25|20:51:44|01|cashwithdrawal|401704XXXXXX8688|411620009229|9229|40000|906|AMOUNT CAN BE DISPENSED|031999
+2024-04-25 21:04:11,455 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"TransactionID":"007411620009229","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|190000|00|SUCCESSFUL|031928VMH00223|2024-04-25|20:49:32|01|cashwithdrawal|401704XXXXXX8688|411620009228|9228|90000|906|AMOUNT CAN BE DISPENSED|031948VMH00223|2024-04-25|20:51:44|01|cashwithdrawal|401704XXXXXX8688|411620009229|9229|40000|906|AMOUNT CAN BE DISPENSED|031999"}
+2024-04-25 21:04:11,457 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-04-25 21:04:11,458 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushtransactionfeed
+2024-04-25 21:04:11,458 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-04-25 21:04:11,458 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"516"]
+2024-04-25 21:04:11,458 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"TransactionID":"007411620009229","FeedText":"VMH00223|2024-04-25|20:47:53|01|cashwithdrawal|401704XXXXXX8688|411620009226|9226|190000|51|INSUFFICIENT BALANCE|0VMH00223|2024-04-25|20:48:41|31|balanceEnquiry|401704XXXXXX8688|411620009227|9227|190000|00|SUCCESSFUL|031928VMH00223|2024-04-25|20:49:32|01|cashwithdrawal|401704XXXXXX8688|411620009228|9228|90000|906|AMOUNT CAN BE DISPENSED|031948VMH00223|2024-04-25|20:51:44|01|cashwithdrawal|401704XXXXXX8688|411620009229|9229|40000|906|AMOUNT CAN BE DISPENSED|031999"}
+2024-04-25 21:04:11,458 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-04-25 21:04:11,520 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-04-25 21:04:11,520 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-04-25 21:04:11,520 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-04-25 21:04:11,521 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Thu, 25 Apr 2024 15:34:14 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"76", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-04-25 21:04:11,521 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"TransactionID": "007411620009229", "code": "200", "Status": "Sucessfully"}
+2024-04-25 21:04:11,521 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-04-25 21:04:11,522 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"TransactionID": "007411620009229", "code": "200", "Status": "Sucessfully"}
+2024-04-25 21:04:11,522 INFO [scheduling-1] com.sil.scheduler.pushTxnService [83]  CONNECTION SUCCESS : 
+2024-04-25 21:04:30,277 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 21:04:30,348 INFO [scheduling-1] com.sil.scheduler.pushTxnService [46] RECORD NOT FOUND
+2024-04-25 21:04:50,280 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 21:04:50,329 INFO [scheduling-1] com.sil.scheduler.pushTxnService [46] RECORD NOT FOUND
+2024-04-25 21:05:10,280 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 21:05:10,355 INFO [scheduling-1] com.sil.scheduler.pushTxnService [46] RECORD NOT FOUND
+2024-04-25 21:05:30,276 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 21:05:30,643 INFO [scheduling-1] com.sil.scheduler.pushTxnService [46] RECORD NOT FOUND
+2024-04-25 21:05:50,277 INFO [scheduling-1] com.sil.scheduler.pushTxnService [38] 
+
+==================== TRQ ===================
+2024-04-25 21:05:50,324 INFO [scheduling-1] com.sil.scheduler.pushTxnService [46] RECORD NOT FOUND
+2024-04-25 21:27:38,666 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PustTxnFeedApplication using Java 17.0.2 with PID 38632 (E:\Projects\VAKRANGI\PustTxnFeed\target\classes started by vinayak more in E:\Projects\VAKRANGI\PustTxnFeed)
+2024-04-25 21:27:38,668 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 21:27:39,287 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25 21:27:39,346 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2024-04-25 21:27:39,964 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7175 (http)
+2024-04-25 21:27:39,972 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7175"]
+2024-04-25 21:27:39,975 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-04-25 21:27:39,975 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-04-25 21:27:40,060 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-04-25 21:27:40,062 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1337 ms
+2024-04-25 21:27:40,275 INFO [main] com.zaxxer.hikari.HikariDataSource [110] HikariPool-1 - Starting...
+2024-04-25 21:27:40,606 INFO [main] com.zaxxer.hikari.pool.HikariPool [565] HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: d7c3a2a3-3243-4e5f-a3c6-cf565a663615
+2024-04-25 21:27:40,607 INFO [main] com.zaxxer.hikari.HikariDataSource [123] HikariPool-1 - Start completed.
+2024-04-25 21:27:40,658 INFO [main] org.hibernate.jpa.internal.util.LogHelper [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25 21:27:40,714 INFO [main] org.hibernate.Version [44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-04-25 21:27:40,755 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator [50] HHH000026: Second-level cache disabled
+2024-04-25 21:27:40,974 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25 21:27:41,037 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [153] HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-25 21:27:41,039 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [101] HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-04-25 21:27:41,905 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25 21:27:41,908 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25 21:27:42,199 INFO [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [49] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-25 21:27:42,585 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25 21:27:42,949 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7175"]
+2024-04-25 21:27:42,970 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7175 (http) with context path ''
+2024-04-25 21:27:42,989 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PustTxnFeedApplication in 4.608 seconds (process running for 5.178)

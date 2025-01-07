@@ -1,0 +1,1018 @@
+2024-07-07 11:47:49,203 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 12016 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 11:47:49,206 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 11:47:49,825 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-07 11:47:49,885 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2024-07-07 11:47:50,578 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 11:47:50,588 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 11:47:50,593 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 11:47:50,593 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 11:47:50,680 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 11:47:50,682 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1425 ms
+2024-07-07 11:47:50,900 INFO [main] com.zaxxer.hikari.HikariDataSource [110] HikariPool-1 - Starting...
+2024-07-07 11:47:51,292 INFO [main] com.zaxxer.hikari.pool.HikariPool [565] HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 93d68887-ef69-4391-8164-91c9ee689542
+2024-07-07 11:47:51,294 INFO [main] com.zaxxer.hikari.HikariDataSource [123] HikariPool-1 - Start completed.
+2024-07-07 11:47:51,348 INFO [main] org.hibernate.jpa.internal.util.LogHelper [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-07 11:47:51,401 INFO [main] org.hibernate.Version [44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-07-07 11:47:51,436 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator [50] HHH000026: Second-level cache disabled
+2024-07-07 11:47:51,635 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-07 11:47:51,687 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [153] HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-07 11:47:51,689 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [101] HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-07-07 11:47:52,513 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-07 11:47:52,515 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-07 11:47:52,806 INFO [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [49] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-07 11:47:52,903 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-07 11:47:53,366 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 11:47:53,401 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 11:47:53,426 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 4.551 seconds (process running for 5.177)
+2024-07-07 12:00:21,403 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 30852 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:00:21,406 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:00:22,135 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [292] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-07 12:00:22,138 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:00:22,186 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [320] Spring Data R2DBC - Could not safely identify store assignment for repository candidate interface com.sil.repositories.HEALTH_FEED_NEWRepository; If you want this repository to be a R2DBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table (preferred), or consider extending one of the following types with your repository: org.springframework.data.r2dbc.repository.R2dbcRepository
+2024-07-07 12:00:22,187 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 41 ms. Found 0 R2DBC repository interfaces.
+2024-07-07 12:00:22,887 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:00:22,896 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:00:22,898 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:00:22,898 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:00:23,001 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:00:23,003 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1532 ms
+2024-07-07 12:00:23,138 WARN [main] org.springframework.context.support.AbstractApplicationContext [632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'recordController': Unsatisfied dependency expressed through field 'health_feed_newRepository': No qualifying bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-07 12:00:23,147 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Stopping service [Tomcat]
+2024-07-07 12:00:23,592 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-07 12:00:23,642 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field health_feed_newRepository in com.sil.controller.RecordController required a bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' in your configuration.
+
+2024-07-07 12:00:54,552 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 8072 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:00:54,555 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:00:55,350 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [292] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-07 12:00:55,353 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:00:55,401 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [320] Spring Data R2DBC - Could not safely identify store assignment for repository candidate interface com.sil.repositories.HEALTH_FEED_NEWRepository; If you want this repository to be a R2DBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table (preferred), or consider extending one of the following types with your repository: org.springframework.data.r2dbc.repository.R2dbcRepository
+2024-07-07 12:00:55,403 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 43 ms. Found 0 R2DBC repository interfaces.
+2024-07-07 12:00:56,126 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:00:56,138 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:00:56,141 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:00:56,142 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:00:56,249 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:00:56,251 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1642 ms
+2024-07-07 12:00:56,325 WARN [main] org.springframework.context.support.AbstractApplicationContext [632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'recordController': Unsatisfied dependency expressed through field 'health_feed_newRepository': No qualifying bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-07 12:00:56,330 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Stopping service [Tomcat]
+2024-07-07 12:00:56,443 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-07 12:00:56,464 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field health_feed_newRepository in com.sil.controller.RecordController required a bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' in your configuration.
+
+2024-07-07 12:02:16,519 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 2264 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:02:16,523 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:02:17,280 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [292] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-07 12:02:17,283 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:02:17,331 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [320] Spring Data R2DBC - Could not safely identify store assignment for repository candidate interface com.sil.repositories.HEALTH_FEED_NEWRepository; If you want this repository to be a R2DBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table (preferred), or consider extending one of the following types with your repository: org.springframework.data.r2dbc.repository.R2dbcRepository
+2024-07-07 12:02:17,332 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 43 ms. Found 0 R2DBC repository interfaces.
+2024-07-07 12:02:17,995 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:02:18,011 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:02:18,015 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:02:18,016 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:02:18,146 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:02:18,150 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1560 ms
+2024-07-07 12:02:18,243 WARN [main] org.springframework.context.support.AbstractApplicationContext [632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'recordFetcherService': Unsatisfied dependency expressed through field 'health_feed_newRepository': No qualifying bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-07 12:02:18,248 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Stopping service [Tomcat]
+2024-07-07 12:02:18,364 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-07 12:02:18,386 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field health_feed_newRepository in com.sil.services.RecordFetcherService required a bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' in your configuration.
+
+2024-07-07 12:03:11,718 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 22420 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:03:11,722 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:03:12,470 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [292] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-07 12:03:12,472 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:03:12,517 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [320] Spring Data R2DBC - Could not safely identify store assignment for repository candidate interface com.sil.repositories.HEALTH_FEED_NEWRepository; If you want this repository to be a R2DBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table (preferred), or consider extending one of the following types with your repository: org.springframework.data.r2dbc.repository.R2dbcRepository
+2024-07-07 12:03:12,518 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 40 ms. Found 0 R2DBC repository interfaces.
+2024-07-07 12:03:13,196 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:03:13,206 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:03:13,210 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:03:13,210 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:03:13,302 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:03:13,304 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1521 ms
+2024-07-07 12:03:13,374 WARN [main] org.springframework.context.support.AbstractApplicationContext [632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'recordFetcherService': Unsatisfied dependency expressed through field 'health_feed_newRepository': No qualifying bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-07 12:03:13,378 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Stopping service [Tomcat]
+2024-07-07 12:03:13,495 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-07 12:03:13,519 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field health_feed_newRepository in com.sil.services.RecordFetcherService required a bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.sil.repositories.HEALTH_FEED_NEWRepository' in your configuration.
+
+2024-07-07 12:04:56,377 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 4908 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:04:56,380 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:04:57,099 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [292] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-07 12:04:57,102 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:04:57,148 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [320] Spring Data R2DBC - Could not safely identify store assignment for repository candidate interface com.sil.repositories.HEALTH_FEED_NEWRepository; If you want this repository to be a R2DBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table (preferred), or consider extending one of the following types with your repository: org.springframework.data.r2dbc.repository.R2dbcRepository
+2024-07-07 12:04:57,151 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 41 ms. Found 0 R2DBC repository interfaces.
+2024-07-07 12:04:57,814 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:04:57,822 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:04:57,824 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:04:57,825 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:04:57,903 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:04:57,905 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1468 ms
+2024-07-07 12:04:58,310 WARN [main] org.springframework.context.support.AbstractApplicationContext [632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/r2dbc/ConnectionFactoryConfigurations$PoolConfiguration$PooledConnectionFactoryConfiguration.class]: Failed to instantiate [io.r2dbc.pool.ConnectionPool]: Factory method 'connectionFactory' threw exception with message: Failed to determine a suitable R2DBC Connection URL
+2024-07-07 12:04:58,314 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Stopping service [Tomcat]
+2024-07-07 12:04:58,439 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-07 12:04:58,457 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a ConnectionFactory: 'url' attribute is not specified and no embedded database could be configured.
+
+Reason: Failed to determine a suitable R2DBC Connection URL
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-07-07 12:05:28,872 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 25788 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:05:28,877 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:05:29,560 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-07 12:05:29,686 WARN [main] org.springframework.context.support.AbstractApplicationContext [632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.dao.InvalidDataAccessApiUsageException: Reactive Repositories are not supported by JPA; Offending repository is com.sil.repositories.HEALTH_FEED_NEWRepository
+2024-07-07 12:05:29,705 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-07 12:05:29,736 ERROR [main] org.springframework.boot.SpringApplication [851] Application run failed
+org.springframework.dao.InvalidDataAccessApiUsageException: Reactive Repositories are not supported by JPA; Offending repository is com.sil.repositories.HEALTH_FEED_NEWRepository
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.useRepositoryConfiguration(RepositoryConfigurationExtensionSupport.java:339)
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:96)
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:164)
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:376)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:375)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:428)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.sil.PullTxnSummaryApplication.main(PullTxnSummaryApplication.java:13)
+2024-07-07 12:12:24,863 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 28480 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:12:24,868 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:12:25,544 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:12:25,674 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 124 ms. Found 1 R2DBC repository interface.
+2024-07-07 12:12:26,237 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:12:26,248 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:12:26,251 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:12:26,251 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:12:26,324 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:12:26,326 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1387 ms
+2024-07-07 12:12:26,661 WARN [main] org.springframework.context.support.AbstractApplicationContext [632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/r2dbc/ConnectionFactoryConfigurations$PoolConfiguration$PooledConnectionFactoryConfiguration.class]: Failed to instantiate [io.r2dbc.pool.ConnectionPool]: Factory method 'connectionFactory' threw exception with message: Failed to determine a suitable R2DBC Connection URL
+2024-07-07 12:12:26,665 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Stopping service [Tomcat]
+2024-07-07 12:12:26,681 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-07 12:12:26,709 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a ConnectionFactory: 'url' attribute is not specified and no embedded database could be configured.
+
+Reason: Failed to determine a suitable R2DBC Connection URL
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-07-07 12:13:38,422 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 4480 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:13:38,425 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:13:39,381 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:13:39,553 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 164 ms. Found 1 R2DBC repository interface.
+2024-07-07 12:13:40,186 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:13:40,198 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:13:40,205 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:13:40,205 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:13:40,295 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:13:40,298 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1797 ms
+2024-07-07 12:13:41,181 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:13:41,206 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 12:13:41,219 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 3.346 seconds (process running for 4.342)
+2024-07-07 12:14:04,396 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 988 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:14:04,400 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:14:05,074 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:14:05,208 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 127 ms. Found 1 R2DBC repository interface.
+2024-07-07 12:14:05,814 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:14:05,827 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:14:05,831 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:14:05,831 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:14:05,929 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:14:05,931 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1463 ms
+2024-07-07 12:14:06,786 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:14:06,813 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 12:14:06,826 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 3.061 seconds (process running for 4.343)
+2024-07-07 12:14:53,874 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 12804 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:14:53,878 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:14:54,706 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:14:54,834 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 123 ms. Found 1 R2DBC repository interface.
+2024-07-07 12:14:55,551 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:14:55,559 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:14:55,562 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:14:55,563 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:14:55,655 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:14:55,657 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1711 ms
+2024-07-07 12:14:56,463 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:14:56,497 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 12:14:56,506 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 3.083 seconds (process running for 4.086)
+2024-07-07 12:15:30,470 INFO [http-nio-7174-exec-1] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-07 12:15:30,471 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [532] Initializing Servlet 'dispatcherServlet'
+2024-07-07 12:15:30,473 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [554] Completed initialization in 1 ms
+2024-07-07 12:15:44,749 ERROR [http-nio-7174-exec-4] org.apache.juli.logging.DirectJDKLog [175] Servlet.service() for servlet [dispatcherServlet] threw exception
+org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.time.LocalDateTime] to type [java.util.Date]
+	at org.springframework.core.convert.support.GenericConversionService.handleConverterNotFound(GenericConversionService.java:294)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:185)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.getPotentiallyConvertedSimpleRead(MappingRelationalConverter.java:665)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DefaultConversionContext.convert(MappingRelationalConverter.java:837)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$ConversionContext.convert(MappingRelationalConverter.java:943)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DocumentValueProvider.getPropertyValue(MappingRelationalConverter.java:1107)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DocumentValueProvider.getPropertyValue(MappingRelationalConverter.java:1066)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readProperties(MappingRelationalConverter.java:555)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.populateProperties(MappingRelationalConverter.java:522)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.read(MappingRelationalConverter.java:456)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readAggregate(MappingRelationalConverter.java:348)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readAggregate(MappingRelationalConverter.java:311)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.read(MappingRelationalConverter.java:298)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.project(MappingRelationalConverter.java:179)
+	at org.springframework.data.r2dbc.core.R2dbcEntityTemplate.lambda$getRowsFetchSpec$15(R2dbcEntityTemplate.java:839)
+	at io.r2dbc.mssql.MssqlResult.lambda$map$2(MssqlResult.java:169)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:179)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drainRegular(FluxWindowPredicate.java:670)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drain(FluxWindowPredicate.java:748)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.onNext(FluxWindowPredicate.java:790)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.onNext(FluxWindowPredicate.java:268)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+	at io.r2dbc.mssql.util.FluxDiscardOnCancel$FluxDiscardOnCancelSubscriber.onNext(FluxDiscardOnCancel.java:89)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onNext(FluxFilter.java:113)
+	at reactor.core.publisher.FluxHandle$HandleConditionalSubscriber.onNext(FluxHandle.java:343)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:129)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:251)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:245)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:205)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:279)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:265)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:453)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:256)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:294)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:403)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:426)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.r2dbc.mssql.client.ssl.TdsSslHandler.channelRead(TdsSslHandler.java:380)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-07-07 12:15:44,752 ERROR [http-nio-7174-exec-4] org.apache.juli.logging.DirectJDKLog [175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.time.LocalDateTime] to type [java.util.Date]] with root cause
+org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.time.LocalDateTime] to type [java.util.Date]
+	at org.springframework.core.convert.support.GenericConversionService.handleConverterNotFound(GenericConversionService.java:294)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:185)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.getPotentiallyConvertedSimpleRead(MappingRelationalConverter.java:665)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DefaultConversionContext.convert(MappingRelationalConverter.java:837)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$ConversionContext.convert(MappingRelationalConverter.java:943)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DocumentValueProvider.getPropertyValue(MappingRelationalConverter.java:1107)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DocumentValueProvider.getPropertyValue(MappingRelationalConverter.java:1066)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readProperties(MappingRelationalConverter.java:555)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.populateProperties(MappingRelationalConverter.java:522)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.read(MappingRelationalConverter.java:456)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readAggregate(MappingRelationalConverter.java:348)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readAggregate(MappingRelationalConverter.java:311)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.read(MappingRelationalConverter.java:298)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.project(MappingRelationalConverter.java:179)
+	at org.springframework.data.r2dbc.core.R2dbcEntityTemplate.lambda$getRowsFetchSpec$15(R2dbcEntityTemplate.java:839)
+	at io.r2dbc.mssql.MssqlResult.lambda$map$2(MssqlResult.java:169)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:179)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drainRegular(FluxWindowPredicate.java:670)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drain(FluxWindowPredicate.java:748)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.onNext(FluxWindowPredicate.java:790)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.onNext(FluxWindowPredicate.java:268)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+	at io.r2dbc.mssql.util.FluxDiscardOnCancel$FluxDiscardOnCancelSubscriber.onNext(FluxDiscardOnCancel.java:89)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onNext(FluxFilter.java:113)
+	at reactor.core.publisher.FluxHandle$HandleConditionalSubscriber.onNext(FluxHandle.java:343)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:129)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:251)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:245)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:205)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:279)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:265)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:453)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:256)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:294)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:403)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:426)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.r2dbc.mssql.client.ssl.TdsSslHandler.channelRead(TdsSslHandler.java:380)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-07-07 12:17:02,207 ERROR [http-nio-7174-exec-7] org.apache.juli.logging.DirectJDKLog [175] Servlet.service() for servlet [dispatcherServlet] threw exception
+org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.time.LocalDateTime] to type [java.util.Date]
+	at org.springframework.core.convert.support.GenericConversionService.handleConverterNotFound(GenericConversionService.java:294)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:185)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.getPotentiallyConvertedSimpleRead(MappingRelationalConverter.java:665)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DefaultConversionContext.convert(MappingRelationalConverter.java:837)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$ConversionContext.convert(MappingRelationalConverter.java:943)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DocumentValueProvider.getPropertyValue(MappingRelationalConverter.java:1107)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DocumentValueProvider.getPropertyValue(MappingRelationalConverter.java:1066)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readProperties(MappingRelationalConverter.java:555)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.populateProperties(MappingRelationalConverter.java:522)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.read(MappingRelationalConverter.java:456)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readAggregate(MappingRelationalConverter.java:348)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readAggregate(MappingRelationalConverter.java:311)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.read(MappingRelationalConverter.java:298)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.project(MappingRelationalConverter.java:179)
+	at org.springframework.data.r2dbc.core.R2dbcEntityTemplate.lambda$getRowsFetchSpec$15(R2dbcEntityTemplate.java:839)
+	at io.r2dbc.mssql.MssqlResult.lambda$map$2(MssqlResult.java:169)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:179)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drainRegular(FluxWindowPredicate.java:670)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drain(FluxWindowPredicate.java:748)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.onNext(FluxWindowPredicate.java:790)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.onNext(FluxWindowPredicate.java:268)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+	at io.r2dbc.mssql.util.FluxDiscardOnCancel$FluxDiscardOnCancelSubscriber.onNext(FluxDiscardOnCancel.java:89)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onNext(FluxFilter.java:113)
+	at reactor.core.publisher.FluxHandle$HandleConditionalSubscriber.onNext(FluxHandle.java:343)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:129)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:251)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:245)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:205)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:279)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:265)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:453)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:256)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:294)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:403)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:426)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.r2dbc.mssql.client.ssl.TdsSslHandler.channelRead(TdsSslHandler.java:380)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-07-07 12:17:02,209 ERROR [http-nio-7174-exec-7] org.apache.juli.logging.DirectJDKLog [175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.time.LocalDateTime] to type [java.util.Date]] with root cause
+org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.time.LocalDateTime] to type [java.util.Date]
+	at org.springframework.core.convert.support.GenericConversionService.handleConverterNotFound(GenericConversionService.java:294)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:185)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.getPotentiallyConvertedSimpleRead(MappingRelationalConverter.java:665)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DefaultConversionContext.convert(MappingRelationalConverter.java:837)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$ConversionContext.convert(MappingRelationalConverter.java:943)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DocumentValueProvider.getPropertyValue(MappingRelationalConverter.java:1107)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter$DocumentValueProvider.getPropertyValue(MappingRelationalConverter.java:1066)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readProperties(MappingRelationalConverter.java:555)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.populateProperties(MappingRelationalConverter.java:522)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.read(MappingRelationalConverter.java:456)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readAggregate(MappingRelationalConverter.java:348)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.readAggregate(MappingRelationalConverter.java:311)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.read(MappingRelationalConverter.java:298)
+	at org.springframework.data.relational.core.conversion.MappingRelationalConverter.project(MappingRelationalConverter.java:179)
+	at org.springframework.data.r2dbc.core.R2dbcEntityTemplate.lambda$getRowsFetchSpec$15(R2dbcEntityTemplate.java:839)
+	at io.r2dbc.mssql.MssqlResult.lambda$map$2(MssqlResult.java:169)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:179)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drainRegular(FluxWindowPredicate.java:670)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drain(FluxWindowPredicate.java:748)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.onNext(FluxWindowPredicate.java:790)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.onNext(FluxWindowPredicate.java:268)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+	at io.r2dbc.mssql.util.FluxDiscardOnCancel$FluxDiscardOnCancelSubscriber.onNext(FluxDiscardOnCancel.java:89)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onNext(FluxFilter.java:113)
+	at reactor.core.publisher.FluxHandle$HandleConditionalSubscriber.onNext(FluxHandle.java:343)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:129)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:251)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:245)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:205)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:279)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:265)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:453)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:256)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:294)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:403)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:426)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.r2dbc.mssql.client.ssl.TdsSslHandler.channelRead(TdsSslHandler.java:380)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-07-07 12:25:05,972 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 25844 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:25:05,974 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:25:06,646 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:25:06,766 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 112 ms. Found 1 R2DBC repository interface.
+2024-07-07 12:25:07,365 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:25:07,375 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:25:07,376 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:25:07,377 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:25:07,443 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:25:07,445 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1414 ms
+2024-07-07 12:25:08,337 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:25:08,377 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 12:25:08,391 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.9 seconds (process running for 3.625)
+2024-07-07 12:25:17,213 INFO [http-nio-7174-exec-2] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-07 12:25:17,215 INFO [http-nio-7174-exec-2] org.springframework.web.servlet.FrameworkServlet [532] Initializing Servlet 'dispatcherServlet'
+2024-07-07 12:25:17,217 INFO [http-nio-7174-exec-2] org.springframework.web.servlet.FrameworkServlet [554] Completed initialization in 2 ms
+2024-07-07 12:27:34,365 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 17748 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:27:34,371 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:27:44,035 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 22184 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 12:27:44,037 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 12:27:44,707 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 12:27:44,826 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 112 ms. Found 1 R2DBC repository interface.
+2024-07-07 12:27:45,443 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 12:27:45,452 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:27:45,456 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 12:27:45,456 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 12:27:45,530 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 12:27:45,532 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1442 ms
+2024-07-07 12:27:46,318 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 12:27:46,345 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 12:27:46,358 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.738 seconds (process running for 3.75)
+2024-07-07 12:27:52,481 INFO [http-nio-7174-exec-1] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-07 12:27:52,482 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [532] Initializing Servlet 'dispatcherServlet'
+2024-07-07 12:27:52,483 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [554] Completed initialization in 1 ms
+2024-07-07 13:33:21,610 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 25980 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 13:33:21,613 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 13:33:22,298 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 13:33:22,409 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 104 ms. Found 1 R2DBC repository interface.
+2024-07-07 13:33:22,995 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 13:33:23,003 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 13:33:23,005 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 13:33:23,005 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 13:33:23,063 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 13:33:23,064 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1398 ms
+2024-07-07 13:33:23,911 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 13:33:23,939 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 13:33:23,951 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.648 seconds (process running for 3.286)
+2024-07-07 13:33:28,937 INFO [http-nio-7174-exec-1] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-07 13:33:28,938 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [532] Initializing Servlet 'dispatcherServlet'
+2024-07-07 13:33:28,939 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [554] Completed initialization in 1 ms
+2024-07-07 13:33:29,767 ERROR [http-nio-7174-exec-2] org.apache.juli.logging.DirectJDKLog [175] Servlet.service() for servlet [dispatcherServlet] threw exception
+io.r2dbc.mssql.ExceptionFactory$MssqlBadGrammarException: Invalid column name 'o'.
+	at io.r2dbc.mssql.ExceptionFactory.createException(ExceptionFactory.java:93)
+	at io.r2dbc.mssql.MssqlResult.lambda$map$2(MssqlResult.java:179)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:179)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drainRegular(FluxWindowPredicate.java:670)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drain(FluxWindowPredicate.java:748)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.onNext(FluxWindowPredicate.java:790)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.onNext(FluxWindowPredicate.java:268)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+	at io.r2dbc.mssql.util.FluxDiscardOnCancel$FluxDiscardOnCancelSubscriber.onNext(FluxDiscardOnCancel.java:89)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onNext(FluxFilter.java:113)
+	at reactor.core.publisher.FluxHandle$HandleConditionalSubscriber.onNext(FluxHandle.java:343)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:129)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:251)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:245)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:205)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:279)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:265)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:453)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:256)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:294)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:403)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:426)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.r2dbc.mssql.client.ssl.TdsSslHandler.channelRead(TdsSslHandler.java:380)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-07-07 13:33:29,775 ERROR [http-nio-7174-exec-2] org.apache.juli.logging.DirectJDKLog [175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.r2dbc.BadSqlGrammarException: executeMany; bad SQL grammar [SELECT o FROM HEALTH_FEED_NEW o WHERE o.STATUS=@P0_status ORDER BY o.EVENT_NO ASC ]] with root cause
+io.r2dbc.mssql.ExceptionFactory$MssqlBadGrammarException: Invalid column name 'o'.
+	at io.r2dbc.mssql.ExceptionFactory.createException(ExceptionFactory.java:93)
+	at io.r2dbc.mssql.MssqlResult.lambda$map$2(MssqlResult.java:179)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:179)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drainRegular(FluxWindowPredicate.java:670)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.drain(FluxWindowPredicate.java:748)
+	at reactor.core.publisher.FluxWindowPredicate$WindowFlux.onNext(FluxWindowPredicate.java:790)
+	at reactor.core.publisher.FluxWindowPredicate$WindowPredicateMain.onNext(FluxWindowPredicate.java:268)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+	at io.r2dbc.mssql.util.FluxDiscardOnCancel$FluxDiscardOnCancelSubscriber.onNext(FluxDiscardOnCancel.java:89)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onNext(FluxFilter.java:113)
+	at reactor.core.publisher.FluxHandle$HandleConditionalSubscriber.onNext(FluxHandle.java:343)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:129)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:251)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:537)
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:343)
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27)
+	at reactor.core.publisher.EmitterProcessor.onNext(EmitterProcessor.java:309)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:245)
+	at io.r2dbc.mssql.client.ReactorNettyClient$1.next(ReactorNettyClient.java:205)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:279)
+	at io.r2dbc.mssql.client.ReactorNettyClient$2.onNext(ReactorNettyClient.java:265)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:453)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:256)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:294)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:403)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:426)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.r2dbc.mssql.client.ssl.TdsSslHandler.channelRead(TdsSslHandler.java:380)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-07-07 13:34:36,498 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 12012 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 13:34:36,501 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 13:34:37,160 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 13:34:37,257 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 91 ms. Found 1 R2DBC repository interface.
+2024-07-07 13:34:37,800 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 13:34:37,807 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 13:34:37,809 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 13:34:37,810 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 13:34:37,869 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 13:34:37,871 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1313 ms
+2024-07-07 13:34:38,682 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 13:34:38,710 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 13:34:38,722 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.536 seconds (process running for 3.318)
+2024-07-07 13:34:41,319 INFO [http-nio-7174-exec-1] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-07 13:34:41,320 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [532] Initializing Servlet 'dispatcherServlet'
+2024-07-07 13:34:41,323 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [554] Completed initialization in 2 ms
+2024-07-07 13:52:53,389 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 22848 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 13:52:53,391 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 13:52:54,051 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 13:52:54,156 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 99 ms. Found 1 R2DBC repository interface.
+2024-07-07 13:52:54,737 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 13:52:54,743 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 13:52:54,746 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 13:52:54,746 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 13:52:54,807 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 13:52:54,808 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1362 ms
+2024-07-07 13:52:55,639 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 13:52:55,672 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 13:52:55,684 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.628 seconds (process running for 3.34)
+2024-07-07 13:53:22,606 INFO [http-nio-7174-exec-1] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-07 13:53:22,607 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [532] Initializing Servlet 'dispatcherServlet'
+2024-07-07 13:53:22,610 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [554] Completed initialization in 2 ms
+2024-07-07 13:55:03,687 WARN [http-nio-7174-exec-6] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [247] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-07 13:55:46,721 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 32596 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 13:55:46,725 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 13:55:47,401 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 13:55:47,503 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 96 ms. Found 1 R2DBC repository interface.
+2024-07-07 13:55:48,059 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 13:55:48,066 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 13:55:48,067 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 13:55:48,068 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 13:55:48,129 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 13:55:48,133 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1351 ms
+2024-07-07 13:55:48,957 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 13:55:48,995 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 13:55:49,008 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.66 seconds (process running for 3.529)
+2024-07-07 13:56:02,118 INFO [http-nio-7174-exec-1] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-07 13:56:02,118 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [532] Initializing Servlet 'dispatcherServlet'
+2024-07-07 13:56:02,119 INFO [http-nio-7174-exec-1] org.springframework.web.servlet.FrameworkServlet [554] Completed initialization in 1 ms
+2024-07-07 13:56:33,023 WARN [http-nio-7174-exec-5] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [247] Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-07-07 18:45:50,755 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 13936 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:45:50,758 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:45:51,442 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:45:51,597 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 149 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:45:52,213 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:45:52,221 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:45:52,224 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:45:52,225 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:45:52,302 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:45:52,303 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1495 ms
+2024-07-07 18:45:53,121 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:45:53,150 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:45:53,162 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.746 seconds (process running for 3.415)
+2024-07-07 18:46:49,893 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 26620 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:46:49,896 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:46:50,501 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:46:50,637 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 130 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:46:51,210 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:46:51,216 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:46:51,219 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:46:51,219 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:46:51,278 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:46:51,281 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1336 ms
+2024-07-07 18:46:52,017 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:46:52,056 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:46:52,068 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.497 seconds (process running for 3.104)
+2024-07-07 18:47:17,186 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 22240 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:47:17,189 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:47:17,859 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:47:17,974 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 105 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:47:18,526 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:47:18,535 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:47:18,538 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:47:18,538 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:47:18,605 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:47:18,607 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1371 ms
+2024-07-07 18:47:19,350 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:47:19,387 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:47:19,398 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.537 seconds (process running for 3.128)
+2024-07-07 18:48:03,203 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 27276 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:48:03,205 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:48:03,866 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:48:03,980 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 108 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:48:04,526 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:48:04,535 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:48:04,537 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:48:04,537 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:48:04,618 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:48:04,620 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1368 ms
+2024-07-07 18:48:05,406 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:48:05,449 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:48:05,462 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.693 seconds (process running for 3.86)
+2024-07-07 18:48:56,602 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 14000 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:48:56,605 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:48:57,301 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:48:57,429 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 122 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:48:57,985 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:48:57,998 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:48:58,002 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:48:58,002 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:48:58,107 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:48:58,110 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1440 ms
+2024-07-07 18:48:58,936 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:48:58,964 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:48:58,975 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.69 seconds (process running for 3.512)
+2024-07-07 18:49:15,680 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 10452 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:49:15,684 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:49:16,372 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:49:16,479 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 103 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:49:17,009 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:49:17,018 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:49:17,021 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:49:17,021 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:49:17,122 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:49:17,124 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1370 ms
+2024-07-07 18:49:17,921 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:49:17,948 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:49:17,962 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.835 seconds (process running for 3.92)
+2024-07-07 18:50:44,743 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 25032 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:50:44,749 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:50:45,466 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:50:45,600 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 128 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:50:46,185 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:50:46,207 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:50:46,213 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:50:46,213 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:50:46,356 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:50:46,358 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1517 ms
+2024-07-07 18:50:47,211 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:50:47,237 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:50:47,249 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 3.022 seconds (process running for 3.808)
+2024-07-07 18:51:44,564 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 29100 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:51:44,569 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:51:45,234 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:51:45,353 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 113 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:51:45,899 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:51:45,909 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:51:45,912 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:51:45,912 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:51:45,990 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:51:45,993 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1349 ms
+2024-07-07 18:51:46,783 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:51:46,809 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:51:46,817 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.627 seconds (process running for 3.767)
+2024-07-07 18:53:06,964 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 22364 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:53:06,966 INFO [restartedMain] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:53:07,017 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-07 18:53:07,018 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-07 18:53:07,667 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:53:07,809 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 137 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:53:08,490 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:53:08,502 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:53:08,506 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:53:08,506 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:53:08,566 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:53:08,567 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1548 ms
+2024-07-07 18:53:08,922 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [59] LiveReload server is running on port 35729
+2024-07-07 18:53:09,405 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:53:09,435 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:53:09,449 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 2.817 seconds (process running for 3.769)
+2024-07-07 18:53:19,939 INFO [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-07 18:53:19,950 INFO [Thread-4] org.apache.juli.logging.DirectJDKLog [173] Stopping ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:53:20,125 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 22364 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 18:53:20,126 INFO [restartedMain] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 18:53:20,299 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 18:53:20,308 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 8 ms. Found 1 R2DBC repository interface.
+2024-07-07 18:53:20,411 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 18:53:20,412 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:53:20,413 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 18:53:20,413 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 18:53:20,435 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 18:53:20,436 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 307 ms
+2024-07-07 18:53:20,469 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [59] LiveReload server is running on port 35729
+2024-07-07 18:53:20,579 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 18:53:20,583 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 18:53:20,587 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 0.505 seconds (process running for 14.907)
+2024-07-07 21:58:53,106 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 31540 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 21:58:53,109 INFO [restartedMain] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 21:58:53,190 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-07 21:58:53,192 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-07 21:58:53,956 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 21:58:54,134 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 172 ms. Found 1 R2DBC repository interface.
+2024-07-07 21:58:54,969 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 21:58:54,983 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 21:58:54,986 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 21:58:54,986 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 21:58:55,057 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 21:58:55,059 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1866 ms
+2024-07-07 21:58:55,425 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [59] LiveReload server is running on port 35729
+2024-07-07 21:58:55,912 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 21:58:55,939 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 21:58:55,953 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 3.205 seconds (process running for 4.021)
+2024-07-07 22:01:08,976 INFO [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-07 22:01:08,983 INFO [Thread-4] org.apache.juli.logging.DirectJDKLog [173] Stopping ProtocolHandler ["http-nio-7174"]
+2024-07-07 22:01:09,105 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 31540 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 22:01:09,106 INFO [restartedMain] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 22:01:09,266 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 22:01:09,274 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 8 ms. Found 1 R2DBC repository interface.
+2024-07-07 22:01:09,364 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 22:01:09,365 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 22:01:09,366 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 22:01:09,366 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 22:01:09,390 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 22:01:09,391 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 282 ms
+2024-07-07 22:01:09,424 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [59] LiveReload server is running on port 35729
+2024-07-07 22:01:09,557 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 22:01:09,560 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 22:01:09,565 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 0.488 seconds (process running for 137.634)
+2024-07-07 22:01:09,568 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [63] Condition evaluation unchanged
+2024-07-07 22:02:07,808 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 15480 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-07 22:02:07,812 INFO [restartedMain] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-07 22:02:07,887 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-07 22:02:07,888 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-07 22:02:08,601 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-07 22:02:08,760 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 154 ms. Found 1 R2DBC repository interface.
+2024-07-07 22:02:09,500 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-07 22:02:09,514 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-07 22:02:09,517 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-07 22:02:09,517 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-07 22:02:09,568 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-07 22:02:09,569 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1680 ms
+2024-07-07 22:02:09,973 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [59] LiveReload server is running on port 35729
+2024-07-07 22:02:10,485 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-07 22:02:10,514 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-07 22:02:10,526 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 3.099 seconds (process running for 3.872)

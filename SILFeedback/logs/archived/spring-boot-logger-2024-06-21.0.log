@@ -1,0 +1,209 @@
+2024-06-21 14:40:09,583 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:09,585 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:09,585 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:09,586 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:14 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"66", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:09,588 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "253599", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:09,589 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:09,591 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "253599", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:09,592 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:09,592 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:10,925 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 2602430
+2024-06-21 14:40:10,931 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:10,932 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:10,932 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:10,932 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"262"]
+2024-06-21 14:40:10,932 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"2602430","FeedText":"2602430|240621|000000000008|000000000000015|2024-06-21 13:00:01|VMH00127|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode to In Service"}
+2024-06-21 14:40:10,933 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:11,847 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:11,847 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:11,847 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:11,848 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:16 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:11,848 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "2602430", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:11,848 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:11,848 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "2602430", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:11,848 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:11,848 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:12,734 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 8014007
+2024-06-21 14:40:12,737 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:12,737 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:12,737 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:12,737 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"262"]
+2024-06-21 14:40:12,737 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"8014007","FeedText":"8014007|240621|000000000009|000000000000017|2024-06-21 13:10:01|VMH00127|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode to In Service"}
+2024-06-21 14:40:12,737 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:13,130 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:13,130 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:13,130 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:13,130 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:18 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:13,132 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "8014007", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:13,132 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:13,133 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "8014007", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:13,133 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:13,133 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:14,483 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 4216916
+2024-06-21 14:40:14,487 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:14,487 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:14,487 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:14,487 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"263"]
+2024-06-21 14:40:14,487 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"4216916","FeedText":"4216916|240621|000000000010|000000000000019|2024-06-21 13:12:07|VMH00127|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed"}
+2024-06-21 14:40:14,487 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:15,083 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:15,083 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:15,084 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:15,084 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:19 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:15,084 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "4216916", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:15,084 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:15,085 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "4216916", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:15,085 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:15,085 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:15,595 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 5754934
+2024-06-21 14:40:15,600 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:15,600 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:15,600 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:15,601 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"262"]
+2024-06-21 14:40:15,601 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"5754934","FeedText":"5754934|240621|000000000011|000000000000021|2024-06-21 13:12:48|VMH00127|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode to In Service"}
+2024-06-21 14:40:15,601 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:15,847 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:15,847 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:15,847 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:15,848 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:20 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:15,848 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "5754934", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:15,848 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:15,849 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "5754934", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:15,849 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:15,850 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:16,708 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 6851800
+2024-06-21 14:40:16,710 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:16,710 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:16,710 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:16,710 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"262"]
+2024-06-21 14:40:16,710 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"6851800","FeedText":"6851800|240621|000000000012|000000000000023|2024-06-21 13:20:01|VMH00127|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode to In Service"}
+2024-06-21 14:40:16,711 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:17,190 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:17,191 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:17,192 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:17,192 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:22 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:17,192 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "6851800", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:17,192 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:17,193 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "6851800", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:17,194 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:17,194 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:18,146 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 9694155
+2024-06-21 14:40:18,150 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:18,150 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:18,150 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:18,150 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"263"]
+2024-06-21 14:40:18,150 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"9694155","FeedText":"9694155|240621|000000000013|000000000000025|2024-06-21 13:24:38|VMH00127|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed"}
+2024-06-21 14:40:18,151 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:18,398 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:18,398 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:18,398 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:18,399 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:23 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:18,399 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "9694155", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:18,399 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:18,400 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "9694155", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:18,401 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:18,401 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:19,094 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 2873584
+2024-06-21 14:40:19,099 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:19,099 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:19,100 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:19,100 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"262"]
+2024-06-21 14:40:19,100 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"2873584","FeedText":"2873584|240621|000000000014|000000000000027|2024-06-21 13:25:20|VMH00127|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode to In Service"}
+2024-06-21 14:40:19,101 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:19,320 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:19,320 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:19,320 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:19,320 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:24 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:19,320 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "2873584", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:19,321 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:19,321 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "2873584", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:19,321 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:19,321 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:20,036 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 6047122
+2024-06-21 14:40:20,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:20,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:20,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:20,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"262"]
+2024-06-21 14:40:20,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"6047122","FeedText":"6047122|240621|000000000001|000000000000028|2024-06-21 14:20:00|VMH00223|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode to In Service"}
+2024-06-21 14:40:20,039 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:20,298 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:20,298 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:20,298 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:20,298 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:25 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:20,298 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "6047122", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:20,299 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:20,300 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "6047122", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:20,300 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:20,300 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:21,952 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 6881866
+2024-06-21 14:40:21,955 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:21,957 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:21,957 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:21,957 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"263"]
+2024-06-21 14:40:21,957 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"6881866","FeedText":"6881866|240621|000000000002|000000000000029|2024-06-21 14:20:20|VMH00223|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed"}
+2024-06-21 14:40:21,958 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:22,409 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:22,410 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:22,410 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:22,410 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:27 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:22,410 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "6881866", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:22,410 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:22,412 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "6881866", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:22,412 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:22,414 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:23,627 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 3414421
+2024-06-21 14:40:23,631 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:23,631 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:23,632 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:23,632 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"263"]
+2024-06-21 14:40:23,632 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"3414421","FeedText":"3414421|240621|000000000015|000000000000030|2024-06-21 14:20:29|VMH00127|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed"}
+2024-06-21 14:40:23,632 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:23,832 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:23,832 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:23,832 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:23,832 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:28 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:23,832 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "3414421", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:23,832 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:23,833 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "3414421", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:23,833 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:23,833 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:24,655 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 1733023
+2024-06-21 14:40:24,668 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:24,668 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:24,668 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:24,669 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"262"]
+2024-06-21 14:40:24,669 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"1733023","FeedText":"1733023|240621|000000000003|000000000000031|2024-06-21 14:21:06|VMH00223|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode to In Service"}
+2024-06-21 14:40:24,669 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:25,438 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:25,439 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:25,439 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:25,439 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:29 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:25,439 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "1733023", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:25,440 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:25,441 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "1733023", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:25,441 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:25,441 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:40:26,191 INFO [scheduling-1] com.sil.scheduler.pushTxnService [111] Transaction ID : 8284656
+2024-06-21 14:40:26,197 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-21 14:40:26,197 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-21 14:40:26,197 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-21 14:40:26,198 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"262"]
+2024-06-21 14:40:26,198 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"8284656","FeedText":"8284656|240621|000000000016|000000000000032|2024-06-21 14:21:10|VMH00127|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode to In Service"}
+2024-06-21 14:40:26,198 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-21 14:40:26,390 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-21 14:40:26,390 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-21 14:40:26,390 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-21 14:40:26,390 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Fri, 21 Jun 2024 09:10:31 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-21 14:40:26,390 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "8284656", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:26,390 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-21 14:40:26,391 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "8284656", "code": "200", "Status": "Sucessfully"}
+2024-06-21 14:40:26,391 INFO [scheduling-1] com.sil.scheduler.pushTxnService [134]  CONNECTION SUCCESS : 
+2024-06-21 14:40:26,392 INFO [scheduling-1] com.sil.scheduler.pushTxnService [136] SEND SUCCESS : 
+2024-06-21 14:41:00,003 INFO [scheduling-1] com.sil.scheduler.pushTxnService [39] 
+
+==================== TRQ ===================
+2024-06-21 14:41:00,176 INFO [scheduling-1] com.sil.scheduler.pushTxnService [47] RECORD NOT FOUND
+2024-06-21 14:42:00,012 INFO [scheduling-1] com.sil.scheduler.pushTxnService [39] 
+
+==================== TRQ ===================
+2024-06-21 14:42:00,129 INFO [scheduling-1] com.sil.scheduler.pushTxnService [47] RECORD NOT FOUND

@@ -1,0 +1,74 @@
+2024-06-03 20:40:32,685 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PustHealthFeedApplication using Java 17.0.2 with PID 5920 (E:\Projects\VAKRANGI\PustHeathFeed\target\classes started by vinayak more in E:\Projects\VAKRANGI\PustHeathFeed)
+2024-06-03 20:40:32,687 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-06-03 20:40:33,211 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 20:40:33,263 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2024-06-03 20:40:33,752 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-06-03 20:40:33,759 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-06-03 20:40:33,761 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-06-03 20:40:33,761 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-06-03 20:40:33,827 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-06-03 20:40:33,830 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1090 ms
+2024-06-03 20:40:34,127 INFO [main] com.zaxxer.hikari.HikariDataSource [110] HikariPool-1 - Starting...
+2024-06-03 20:40:35,906 INFO [main] com.zaxxer.hikari.pool.HikariPool [565] HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e2d39bc2-4d19-48f7-a327-f06eb62cbf2f
+2024-06-03 20:40:35,908 INFO [main] com.zaxxer.hikari.HikariDataSource [123] HikariPool-1 - Start completed.
+2024-06-03 20:40:35,960 INFO [main] org.hibernate.jpa.internal.util.LogHelper [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 20:40:36,020 INFO [main] org.hibernate.Version [44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-03 20:40:36,061 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator [50] HHH000026: Second-level cache disabled
+2024-06-03 20:40:36,293 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03 20:40:36,341 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [153] HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-03 20:40:36,342 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [101] HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-06-03 20:40:37,358 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03 20:40:37,363 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 20:40:37,681 INFO [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [49] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-03 20:40:37,766 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 20:40:38,085 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-06-03 20:40:38,111 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-06-03 20:40:38,129 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PustHealthFeedApplication in 5.733 seconds (process running for 6.25)
+2024-06-03 20:42:31,296 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PustHealthFeedApplication using Java 17.0.2 with PID 18624 (E:\Projects\VAKRANGI\PustHeathFeed\target\classes started by vinayak more in E:\Projects\VAKRANGI\PustHeathFeed)
+2024-06-03 20:42:31,300 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-06-03 20:42:32,047 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 20:42:32,103 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2024-06-03 20:42:32,744 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-06-03 20:42:32,755 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-06-03 20:42:32,759 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-06-03 20:42:32,759 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-06-03 20:42:32,838 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-06-03 20:42:32,840 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1470 ms
+2024-06-03 20:42:33,073 INFO [main] com.zaxxer.hikari.HikariDataSource [110] HikariPool-1 - Starting...
+2024-06-03 20:42:33,540 INFO [main] com.zaxxer.hikari.pool.HikariPool [565] HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 653c259a-ac89-4008-a2ca-e0c8c0dd0164
+2024-06-03 20:42:33,543 INFO [main] com.zaxxer.hikari.HikariDataSource [123] HikariPool-1 - Start completed.
+2024-06-03 20:42:33,616 INFO [main] org.hibernate.jpa.internal.util.LogHelper [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 20:42:33,676 INFO [main] org.hibernate.Version [44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-03 20:42:33,724 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator [50] HHH000026: Second-level cache disabled
+2024-06-03 20:42:33,970 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03 20:42:34,027 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [153] HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-03 20:42:34,029 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [101] HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-06-03 20:42:34,898 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03 20:42:34,900 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 20:42:35,202 INFO [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [49] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-03 20:42:35,294 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 20:42:35,651 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-06-03 20:42:35,672 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-06-03 20:42:35,689 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PustHealthFeedApplication in 4.809 seconds (process running for 5.548)
+2024-06-03 20:43:00,018 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-03 20:43:00,185 INFO [scheduling-1] com.sil.scheduler.pushTxnService [51] Total Records Fetched : 1
+2024-06-03 20:43:00,191 INFO [scheduling-1] com.sil.scheduler.pushTxnService [110] Transaction ID : 9441062
+2024-06-03 20:43:00,192 INFO [scheduling-1] com.sil.scheduler.pushTxnService [124] Data : 9441062|240603|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000005003|terminal has been disconnected
+2024-06-03 20:43:00,196 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"HealthFeedID":"9441062","FeedText":"9441062|240603|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000005003|terminal has been disconnected"}
+2024-06-03 20:43:00,242 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-03 20:43:00,243 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-03 20:43:00,243 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-03 20:43:00,244 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"258"]
+2024-06-03 20:43:00,244 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"9441062","FeedText":"9441062|240603|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000005003|terminal has been disconnected"}
+2024-06-03 20:43:00,244 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-03 20:43:00,964 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-03 20:43:00,967 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-03 20:43:00,967 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-03 20:43:00,967 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Mon, 03 Jun 2024 15:13:02 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-03 20:43:00,967 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "9441062", "code": "200", "Status": "Sucessfully"}
+2024-06-03 20:43:00,967 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-03 20:43:00,987 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"HealthFeedID": "9441062", "code": "200", "Status": "Sucessfully"}
+2024-06-03 20:43:00,987 INFO [scheduling-1] com.sil.scheduler.pushTxnService [133]  CONNECTION SUCCESS : 
+2024-06-03 20:43:00,987 INFO [scheduling-1] com.sil.scheduler.pushTxnService [135] SEND SUCCESS : 

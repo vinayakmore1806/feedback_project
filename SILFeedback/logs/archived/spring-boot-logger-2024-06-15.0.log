@@ -1,0 +1,267 @@
+2024-06-15 15:22:00,017 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:22:00,424 INFO [scheduling-1] com.sil.scheduler.pushTxnService [51] Total Records Fetched : 2
+2024-06-15 15:22:00,430 INFO [scheduling-1] com.sil.scheduler.pushTxnService [110] Transaction ID : 9665853
+2024-06-15 15:22:00,431 INFO [scheduling-1] com.sil.scheduler.pushTxnService [124] Data : 9665853|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00127|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed
+2024-06-15 15:22:00,467 INFO [scheduling-1] com.sil.client.AtmTxnClient [65] Request To Controller : {
+  "HealthFeedID" : "9665853",
+  "FeedText" : "9665853|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00127|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed"
+}
+2024-06-15 15:22:00,493 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-15 15:22:00,494 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-15 15:22:00,494 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-15 15:22:00,495 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"260"]
+2024-06-15 15:22:00,495 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"9665853","FeedText":"9665853|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00127|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed"}
+2024-06-15 15:22:00,495 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-15 15:22:00,722 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-15 15:22:00,724 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-15 15:22:00,724 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-15 15:22:00,726 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Sat, 15 Jun 2024 09:52:01 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-15 15:22:00,726 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "9665853", "code": "200", "Status": "Sucessfully"}
+2024-06-15 15:22:00,726 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-15 15:22:00,749 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "9665853", "code": "200", "Status": "Sucessfully"}
+2024-06-15 15:22:00,749 INFO [scheduling-1] com.sil.scheduler.pushTxnService [133]  CONNECTION SUCCESS : 
+2024-06-15 15:22:00,749 INFO [scheduling-1] com.sil.scheduler.pushTxnService [135] SEND SUCCESS : 
+2024-06-15 15:22:00,749 INFO [scheduling-1] com.sil.scheduler.pushTxnService [110] Transaction ID : 8884636
+2024-06-15 15:22:00,750 INFO [scheduling-1] com.sil.scheduler.pushTxnService [124] Data : 8884636|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode from to Closed
+2024-06-15 15:22:00,750 INFO [scheduling-1] com.sil.client.AtmTxnClient [65] Request To Controller : {
+  "HealthFeedID" : "8884636",
+  "FeedText" : "8884636|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode from to Closed"
+}
+2024-06-15 15:22:00,752 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-15 15:22:00,753 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-15 15:22:00,753 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-15 15:22:00,753 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"260"]
+2024-06-15 15:22:00,753 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"8884636","FeedText":"8884636|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode from to Closed"}
+2024-06-15 15:22:00,753 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-15 15:22:00,932 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-15 15:22:00,933 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-15 15:22:00,933 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-15 15:22:00,933 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Sat, 15 Jun 2024 09:52:01 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-15 15:22:00,933 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "8884636", "code": "200", "Status": "Sucessfully"}
+2024-06-15 15:22:00,933 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-15 15:22:00,934 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "8884636", "code": "200", "Status": "Sucessfully"}
+2024-06-15 15:22:00,935 INFO [scheduling-1] com.sil.scheduler.pushTxnService [133]  CONNECTION SUCCESS : 
+2024-06-15 15:22:00,935 INFO [scheduling-1] com.sil.scheduler.pushTxnService [135] SEND SUCCESS : 
+2024-06-15 15:33:12,334 INFO [main] org.springframework.boot.StartupInfoLogger [50] Starting PustHealthFeedApplication using Java 17.0.2 with PID 11380 (E:\Projects\VAKRANGI\PustHeathFeed\target\classes started by vinayak more in E:\Projects\VAKRANGI\PustHeathFeed)
+2024-06-15 15:33:12,337 INFO [main] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-06-15 15:33:12,994 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-15 15:33:13,044 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-06-15 15:33:13,765 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-06-15 15:33:13,775 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-06-15 15:33:13,778 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-06-15 15:33:13,779 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-06-15 15:33:13,869 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-06-15 15:33:13,871 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 1476 ms
+2024-06-15 15:33:14,086 INFO [main] com.zaxxer.hikari.HikariDataSource [110] HikariPool-1 - Starting...
+2024-06-15 15:33:15,533 INFO [main] com.zaxxer.hikari.pool.HikariPool [565] HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 1d9f6a76-8a82-498c-b53d-88202dbe7818
+2024-06-15 15:33:15,557 INFO [main] com.zaxxer.hikari.HikariDataSource [123] HikariPool-1 - Start completed.
+2024-06-15 15:33:15,611 INFO [main] org.hibernate.jpa.internal.util.LogHelper [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-15 15:33:15,668 INFO [main] org.hibernate.Version [44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-15 15:33:15,698 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator [50] HHH000026: Second-level cache disabled
+2024-06-15 15:33:15,925 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-15 15:33:15,980 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [153] HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-15 15:33:15,981 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [101] HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-06-15 15:33:17,133 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-15 15:33:17,135 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-15 15:33:17,420 INFO [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [49] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-15 15:33:17,526 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-15 15:33:17,906 INFO [main] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-06-15 15:33:17,940 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-06-15 15:33:17,959 INFO [main] org.springframework.boot.StartupInfoLogger [56] Started PustHealthFeedApplication in 5.935 seconds (process running for 6.537)
+2024-06-15 15:34:00,022 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:34:00,434 INFO [scheduling-1] com.sil.scheduler.pushTxnService [51] Total Records Fetched : 2
+2024-06-15 15:34:00,803 INFO [scheduling-1] com.sil.scheduler.pushTxnService [112] Transaction ID : 8537007
+2024-06-15 15:34:00,805 INFO [scheduling-1] com.sil.scheduler.pushTxnService [126] Data : 8537007|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00127|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed
+2024-06-15 15:34:00,870 INFO [scheduling-1] com.sil.client.AtmTxnClient [65] Request To Controller : {
+  "HealthFeedID" : "8537007",
+  "FeedText" : "8537007|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00127|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed"
+}
+2024-06-15 15:34:00,926 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-15 15:34:00,928 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-15 15:34:00,928 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-15 15:34:00,931 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"260"]
+2024-06-15 15:34:00,931 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"8537007","FeedText":"8537007|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00127|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000111|The ATM changed mode from to Closed"}
+2024-06-15 15:34:00,932 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-15 15:34:01,119 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-15 15:34:01,124 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-15 15:34:01,125 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-15 15:34:01,125 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Sat, 15 Jun 2024 10:04:01 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-15 15:34:01,126 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "8537007", "code": "200", "Status": "Sucessfully"}
+2024-06-15 15:34:01,126 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-15 15:34:01,161 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "8537007", "code": "200", "Status": "Sucessfully"}
+2024-06-15 15:34:01,162 INFO [scheduling-1] com.sil.scheduler.pushTxnService [135]  CONNECTION SUCCESS : 
+2024-06-15 15:34:01,162 INFO [scheduling-1] com.sil.scheduler.pushTxnService [137] SEND SUCCESS : 
+2024-06-15 15:34:01,899 INFO [scheduling-1] com.sil.scheduler.pushTxnService [112] Transaction ID : 3156560
+2024-06-15 15:34:01,901 INFO [scheduling-1] com.sil.scheduler.pushTxnService [126] Data : 3156560|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode from to Closed
+2024-06-15 15:34:01,902 INFO [scheduling-1] com.sil.client.AtmTxnClient [65] Request To Controller : {
+  "HealthFeedID" : "3156560",
+  "FeedText" : "3156560|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode from to Closed"
+}
+2024-06-15 15:34:01,908 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-15 15:34:01,908 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-15 15:34:01,909 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-15 15:34:01,909 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"260"]
+2024-06-15 15:34:01,909 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"3156560","FeedText":"3156560|240615|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|P|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000000112|The ATM changed mode from to Closed"}
+2024-06-15 15:34:01,909 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-15 15:34:01,990 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-15 15:34:01,990 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-15 15:34:01,990 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-15 15:34:01,990 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Sat, 15 Jun 2024 10:04:02 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-15 15:34:01,991 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "3156560", "code": "200", "Status": "Sucessfully"}
+2024-06-15 15:34:01,991 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-15 15:34:01,992 INFO [scheduling-1] com.sil.client.AtmTxnClient [90] Response from Controller : {"HealthFeedID": "3156560", "code": "200", "Status": "Sucessfully"}
+2024-06-15 15:34:01,993 INFO [scheduling-1] com.sil.scheduler.pushTxnService [135]  CONNECTION SUCCESS : 
+2024-06-15 15:34:01,993 INFO [scheduling-1] com.sil.scheduler.pushTxnService [137] SEND SUCCESS : 
+2024-06-15 15:35:00,004 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:35:00,159 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:36:00,012 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:36:00,247 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:37:00,008 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:37:00,605 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:38:00,003 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:38:00,284 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:39:00,006 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:39:00,789 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:40:00,004 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:40:00,840 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:41:00,013 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:41:00,074 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:42:00,013 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:42:00,115 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:43:00,000 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:43:00,113 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:44:00,001 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:44:00,202 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:45:00,012 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:45:00,171 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:46:00,005 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:46:00,106 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:47:00,013 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:47:00,162 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:48:00,015 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:48:00,130 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:49:00,006 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:49:05,018 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:1 ClientConnectionId: 1d9f6a76-8a82-498c-b53d-88202dbe7818 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:49:05,020 WARN [mssql-timeout-task-1-1d9f6a76-8a82-498c-b53d-88202dbe7818] com.microsoft.sqlserver.jdbc.TDSCommand [7505] TDSCommand@1706f3d7 (SQLServerStatement:38 executeXXX): Command could not be timed out. Reason: Socket closed
+2024-06-15 15:49:10,024 WARN [mssql-timeout-task-2-f72477e3-550d-44bb-9d54-c4da826a2a87] com.microsoft.sqlserver.jdbc.TDSCommand [7505] TDSCommand@304b8272 (SQLServerStatement:39 executeXXX): Command could not be timed out. Reason: Socket closed
+2024-06-15 15:49:10,024 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:2 ClientConnectionId: f72477e3-550d-44bb-9d54-c4da826a2a87 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:49:15,039 WARN [mssql-timeout-task-3-7f1d9a77-f407-438e-9ec4-b84ff36cc588] com.microsoft.sqlserver.jdbc.TDSCommand [7505] TDSCommand@2a587c02 (SQLServerStatement:40 executeXXX): Command could not be timed out. Reason: Socket closed
+2024-06-15 15:49:15,039 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:3 ClientConnectionId: 7f1d9a77-f407-438e-9ec4-b84ff36cc588 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:49:20,052 WARN [mssql-timeout-task-4-ab2c97eb-df66-49c7-815f-74a06dd3ca22] com.microsoft.sqlserver.jdbc.TDSCommand [7505] TDSCommand@4ecd0a3f (SQLServerStatement:41 executeXXX): Command could not be timed out. Reason: Socket closed
+2024-06-15 15:49:20,051 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:4 ClientConnectionId: ab2c97eb-df66-49c7-815f-74a06dd3ca22 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:49:25,063 WARN [mssql-timeout-task-5-49716304-eb39-498a-8224-436524bec4b6] com.microsoft.sqlserver.jdbc.TDSCommand [7505] TDSCommand@4318c6de (SQLServerStatement:42 executeXXX): Command could not be timed out. Reason: Socket closed
+2024-06-15 15:49:25,063 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:5 ClientConnectionId: 49716304-eb39-498a-8224-436524bec4b6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:49:30,986 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:50:00,009 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:50:05,027 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:6 ClientConnectionId: 3b4dbbfa-0c9d-49f4-ac87-5de2ee661791 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:50:05,028 WARN [mssql-timeout-task-6-3b4dbbfa-0c9d-49f4-ac87-5de2ee661791] com.microsoft.sqlserver.jdbc.TDSCommand [7505] TDSCommand@4ea76624 (SQLServerStatement:44 executeXXX): Command could not be timed out. Reason: Socket closed
+2024-06-15 15:50:10,040 WARN [mssql-timeout-task-7-843f7218-94f7-4a5e-b202-dee60529212c] com.microsoft.sqlserver.jdbc.TDSCommand [7505] TDSCommand@8ef9b18 (SQLServerStatement:45 executeXXX): Command could not be timed out. Reason: Socket closed
+2024-06-15 15:50:10,040 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:7 ClientConnectionId: 843f7218-94f7-4a5e-b202-dee60529212c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:50:11,501 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:8 ClientConnectionId: 0a21f0d6-534f-4e8a-91f4-0d941b58db73 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:50:11,718 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:9 ClientConnectionId: 13792d9f-11b7-41da-bf4e-fa289d1f3de8 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:50:11,749 WARN [scheduling-1] com.zaxxer.hikari.pool.PoolBase [179] HikariPool-1 - Failed to validate connection ConnectionID:10 ClientConnectionId: 9ac5e903-a21c-4458-8a95-cf1f87c450fb (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-15 15:50:11,958 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:51:00,014 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:51:00,148 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:52:00,006 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:52:00,260 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:53:00,007 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:53:00,320 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:54:00,008 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:54:00,099 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:55:00,007 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:55:00,162 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:56:00,010 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:56:00,465 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:57:00,003 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:57:00,129 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:58:00,011 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:58:00,383 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 15:59:00,007 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 15:59:00,195 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 16:00:00,009 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 16:00:00,316 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 16:01:00,002 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 16:01:00,164 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 16:02:00,014 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 16:02:00,203 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 16:03:00,003 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 16:03:00,118 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 16:04:00,009 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 16:04:00,196 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 16:05:00,005 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 16:05:00,158 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 16:06:00,013 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 16:06:00,599 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND
+2024-06-15 16:07:00,011 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-15 16:07:00,151 INFO [scheduling-1] com.sil.scheduler.pushTxnService [48] RECORD NOT FOUND

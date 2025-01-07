@@ -1,0 +1,40 @@
+2024-06-01 23:22:00,016 INFO [scheduling-1] com.sil.scheduler.pushTxnService [40] 
+
+==================== TRQ ===================
+2024-06-01 23:22:00,179 INFO [scheduling-1] com.sil.scheduler.pushTxnService [51] Total Records Fetched : 2
+2024-06-01 23:22:00,186 INFO [scheduling-1] com.sil.scheduler.pushTxnService [110] Transaction ID : 377872
+2024-06-01 23:22:00,187 INFO [scheduling-1] com.sil.scheduler.pushTxnService [124] Data : 377872|240601|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000005003|terminal has been disconnected
+2024-06-01 23:22:00,190 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"HealthFeedID":"377872","FeedText":"377872|240601|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000005003|terminal has been disconnected"}
+2024-06-01 23:22:00,232 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-01 23:22:00,233 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-01 23:22:00,233 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-01 23:22:00,234 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"256"]
+2024-06-01 23:22:00,234 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"377872","FeedText":"377872|240601|000000000002|000000000000002|2024-06-01 22:53:34|VMH00223|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000005003|terminal has been disconnected"}
+2024-06-01 23:22:00,234 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-01 23:22:00,955 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-01 23:22:00,959 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-01 23:22:00,960 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-01 23:22:00,960 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Sat, 01 Jun 2024 17:52:02 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"66", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-01 23:22:00,960 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "377872", "code": "200", "Status": "Sucessfully"}
+2024-06-01 23:22:00,960 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-01 23:22:00,997 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"HealthFeedID": "377872", "code": "200", "Status": "Sucessfully"}
+2024-06-01 23:22:00,997 INFO [scheduling-1] com.sil.scheduler.pushTxnService [133]  CONNECTION SUCCESS : 
+2024-06-01 23:22:00,997 INFO [scheduling-1] com.sil.scheduler.pushTxnService [135] SEND SUCCESS : 
+2024-06-01 23:22:00,998 INFO [scheduling-1] com.sil.scheduler.pushTxnService [110] Transaction ID : 8551856
+2024-06-01 23:22:00,998 INFO [scheduling-1] com.sil.scheduler.pushTxnService [124] Data : 8551856|240601|000000000001|000000000000001|2024-06-01 11:13:40|VMH00224|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000005003|terminal has been disconnected
+2024-06-01 23:22:00,999 INFO [scheduling-1] com.sil.client.AtmTxnClient [63] Request To Controller : {"HealthFeedID":"8551856","FeedText":"8551856|240601|000000000001|000000000000001|2024-06-01 11:13:40|VMH00224|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000005003|terminal has been disconnected"}
+2024-06-01 23:22:01,003 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [30] =========================== Request Begin ===========================
+2024-06-01 23:22:01,003 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [31] URI          : http://apigateway.vakrangee.in:4443/pushhealthfeed
+2024-06-01 23:22:01,003 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [32] Method       : POST
+2024-06-01 23:22:01,004 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [33] Headers      : [Accept:"application/json", username:"SilFeed", password:"S!lFeed@123", auth_key:"eyATMGciOiJIUzI1NiIsInR5cCI6IkpFEED24", Content-Type:"application/json", Content-Length:"258"]
+2024-06-01 23:22:01,004 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [34] Body : {"HealthFeedID":"8551856","FeedText":"8551856|240601|000000000001|000000000000001|2024-06-01 11:13:40|VMH00224|NCR|HIGH|0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|0000005003|terminal has been disconnected"}
+2024-06-01 23:22:01,004 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [35] ============================ Request End ============================
+2024-06-01 23:22:01,073 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [47] =========================== Response Begin ===========================
+2024-06-01 23:22:01,074 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [48] Status code   : 200 OK
+2024-06-01 23:22:01,074 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [49] Status text   : OK
+2024-06-01 23:22:01,075 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [50] Headers       : [Date:"Sat, 01 Jun 2024 17:52:03 GMT", Server:"WSGIServer/0.2 CPython/3.12.2", Content-Type:"application/json", X-Frame-Options:"DENY", Content-Length:"67", X-Content-Type-Options:"nosniff", Referrer-Policy:"same-origin", Cross-Origin-Opener-Policy:"same-origin"]
+2024-06-01 23:22:01,075 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [51] Response Body : {"HealthFeedID": "8551856", "code": "200", "Status": "Sucessfully"}
+2024-06-01 23:22:01,075 INFO [scheduling-1] com.sil.client.LoggingRequestInterceptor [52] ============================ Response End ============================
+2024-06-01 23:22:01,077 INFO [scheduling-1] com.sil.client.AtmTxnClient [87] Response from Controller : {"HealthFeedID": "8551856", "code": "200", "Status": "Sucessfully"}
+2024-06-01 23:22:01,077 INFO [scheduling-1] com.sil.scheduler.pushTxnService [133]  CONNECTION SUCCESS : 
+2024-06-01 23:22:01,077 INFO [scheduling-1] com.sil.scheduler.pushTxnService [135] SEND SUCCESS : 

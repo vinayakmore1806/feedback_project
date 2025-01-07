@@ -1,0 +1,22 @@
+2024-07-08 00:18:47,682 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [50] Starting PullTxnSummaryApplication using Java 17.0.2 with PID 30820 (E:\Projects\VAKRANGI\PullTxnSummary\target\classes started by vinayak more in E:\Projects\VAKRANGI\PullTxnSummary)
+2024-07-08 00:18:47,685 INFO [restartedMain] org.springframework.boot.SpringApplication [654] No active profile set, falling back to 1 default profile: "default"
+2024-07-08 00:18:47,746 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-08 00:18:47,747 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-08 00:18:48,734 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [139] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2024-07-08 00:18:48,936 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 195 ms. Found 1 R2DBC repository interface.
+2024-07-08 00:18:50,062 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109] Tomcat initialized with port 7174 (http)
+2024-07-08 00:18:50,084 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7174"]
+2024-07-08 00:18:50,090 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-07-08 00:18:50,090 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-07-08 00:18:50,203 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-07-08 00:18:50,205 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296] Root WebApplicationContext: initialization completed in 2456 ms
+2024-07-08 00:18:50,746 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [59] LiveReload server is running on port 35729
+2024-07-08 00:18:51,329 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7174"]
+2024-07-08 00:18:51,354 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241] Tomcat started on port 7174 (http) with context path ''
+2024-07-08 00:18:51,370 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [56] Started PullTxnSummaryApplication in 4.049 seconds (process running for 4.893)
+2024-07-08 00:18:51,385 INFO [restartedMain] reactor.util.Loggers$Slf4JLogger [279] | onSubscribe([Synchronous Fuseable] FluxIterable.IterableSubscription)
+2024-07-08 00:18:51,388 INFO [restartedMain] reactor.util.Loggers$Slf4JLogger [279] | request(unbounded)
+2024-07-08 00:18:51,389 INFO [restartedMain] reactor.util.Loggers$Slf4JLogger [279] | onNext(Mongo)
+2024-07-08 00:18:51,390 INFO [restartedMain] reactor.util.Loggers$Slf4JLogger [279] | onNext(Banala)
+2024-07-08 00:18:51,390 INFO [restartedMain] reactor.util.Loggers$Slf4JLogger [279] | onNext(Apple)
+2024-07-08 00:18:51,390 INFO [restartedMain] reactor.util.Loggers$Slf4JLogger [279] | onComplete()

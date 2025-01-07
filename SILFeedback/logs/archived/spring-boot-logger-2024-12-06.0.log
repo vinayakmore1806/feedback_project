@@ -1,0 +1,30 @@
+2024-12-06 20:50:53,280 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [51] Starting PullAndSavePOSTxnDataApplication using Java 17.0.2 with PID 8884 (E:\Projects\Zambia-Recon\PullPOSTxnData\target\classes started by vinayak more in E:\Projects\Zambia-Recon\PullPOSTxnData)
+2024-12-06 20:50:53,283 INFO [restartedMain] org.springframework.boot.SpringApplication [634] No active profile set, falling back to 1 default profile: "default"
+2024-12-06 20:50:53,343 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-06 20:50:53,344 INFO [restartedMain] org.springframework.boot.logging.DeferredLog [250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-06 20:50:53,953 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-06 20:50:54,002 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [208] Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2024-12-06 20:50:54,884 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [108] Tomcat initialized with port(s): 7175 (http)
+2024-12-06 20:50:54,895 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing ProtocolHandler ["http-nio-7175"]
+2024-12-06 20:50:54,899 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting service [Tomcat]
+2024-12-06 20:50:54,900 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-12-06 20:50:54,989 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Initializing Spring embedded WebApplicationContext
+2024-12-06 20:50:54,991 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [291] Root WebApplicationContext: initialization completed in 1645 ms
+2024-12-06 20:50:55,157 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource [110] mssql-zambia - Starting...
+2024-12-06 20:50:57,673 INFO [restartedMain] com.zaxxer.hikari.pool.HikariPool [565] mssql-zambia - Added connection ConnectionID:1 ClientConnectionId: 544a6cd1-09c1-461d-baba-2d4970417250
+2024-12-06 20:50:57,675 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource [123] mssql-zambia - Start completed.
+2024-12-06 20:50:57,730 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-06 20:50:57,804 INFO [restartedMain] org.hibernate.Version [44] HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-12-06 20:50:57,807 INFO [restartedMain] org.hibernate.cfg.Environment [191] HHH000406: Using bytecode reflection optimizer
+2024-12-06 20:50:57,936 INFO [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator [53] HHH000021: Bytecode provider name : bytebuddy
+2024-12-06 20:50:58,056 INFO [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-06 20:50:58,095 WARN [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [100] HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-12-06 20:50:59,034 INFO [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator [53] HHH000021: Bytecode provider name : bytebuddy
+2024-12-06 20:50:59,533 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-06 20:50:59,536 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-06 20:50:59,819 INFO [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [47] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-06 20:51:00,296 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [231] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-06 20:51:00,669 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [59] LiveReload server is running on port 35729
+2024-12-06 20:51:00,690 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog [173] Starting ProtocolHandler ["http-nio-7175"]
+2024-12-06 20:51:00,718 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [220] Tomcat started on port(s): 7175 (http) with context path ''
+2024-12-06 20:51:00,738 INFO [restartedMain] org.springframework.boot.StartupInfoLogger [57] Started PullAndSavePOSTxnDataApplication in 7.77 seconds (process running for 8.513)
